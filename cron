@@ -1,0 +1,3 @@
+#entry's for cron, make sure file location is correct
+0 8 * * * /home/user/bin/piratebay.py
+0 12 1 * * /home/user/bin/series.py
