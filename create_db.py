@@ -3,8 +3,9 @@ import logging
 import os
 import urllib.request
 import json
-output_path='/var/lib/transmission/'
-serie_dir='/mnt/hdd2/series/'
+from setting import serie_dir,output_path
+#output_path='/var/lib/transmission/'
+#serie_dir='/mnt/hdd2/series/'
 logging.basicConfig(filename=output_path+'series.log', level=logging.INFO)
 series=[]
 found_series=[]

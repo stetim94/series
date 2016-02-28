@@ -6,8 +6,9 @@ import urllib.request
 import json
 import sqlite3
 import logging
-output_path='/var/lib/transmission/'
-serie_dir='/mnt/hdd2/series/'
+from setting import serie_dir,output_path
+#output_path='/var/lib/transmission/'
+#serie_dir='/mnt/hdd2/series/'
 logging.basicConfig(filename=output_path+'database.log', level=logging.INFO)
 #dict to convert monts to number
 dates = {"Jan":"1","Feb":"2","Mar":"3","Apr":"4","May":"5","Jun":"6","Jul":"7","Aug":"8","Sep":"9","Oct":"10","Nov":"11","Dec":"12"}
